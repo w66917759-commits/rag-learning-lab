@@ -1,0 +1,50 @@
+[
+  {
+    "id": "chunking",
+    "title": "Keep a rule and its exception together",
+    "script": "exercises/chunking.mjs",
+    "lessonFile": "lessons/chunking.md",
+    "expectedOutput": "Fixed chunks preserve rule: false\nParagraph chunks preserve rule: true",
+    "checkedAt": "2026-10-05"
+  },
+  {
+    "id": "fusion",
+    "title": "Combine two retrieval rankings",
+    "script": "exercises/fusion.mjs",
+    "lessonFile": "lessons/fusion.md",
+    "expectedOutput": "Fused ranking: returns, sku-42, refunds, shipping",
+    "checkedAt": "2026-10-05"
+  },
+  {
+    "id": "evidence",
+    "title": "Check the evidence behind an answer",
+    "script": "exercises/evidence.mjs",
+    "lessonFile": "lessons/evidence.md",
+    "expectedOutput": "REVIEW SUPPORT | REJECT | ABSTAIN",
+    "checkedAt": "2026-10-05"
+  },
+  {
+    "id": "evaluation",
+    "title": "Measure what Top K changes",
+    "script": "exercises/evaluation.mjs",
+    "lessonFile": "lessons/evaluation.md",
+    "expectedOutput": "K=1 precision=1.00 recall=0.50\nK=2 precision=0.50 recall=0.50\nK=3 precision=0.67 recall=1.00",
+    "checkedAt": "2026-10-05"
+  },
+  {
+    "id": "cosine",
+    "title": "Calculate cosine similarity by hand",
+    "script": "exercises/cosine.mjs",
+    "lessonFile": "lessons/cosine.md",
+    "expectedOutput": "Same direction: 1.00\nPerpendicular: 0.00\nOpposite: -1.00",
+    "checkedAt": "2026-10-05"
+  },
+  {
+    "id": "filtering",
+    "title": "Filter the corpus before choosing Top K",
+    "script": "exercises/filtering.mjs",
+    "lessonFile": "lessons/filtering.md",
+    "expectedOutput": "Filter after top 1: 0 results\nFilter before top 1: current-policy",
+    "checkedAt": "2026-10-05"
+  }
+]
