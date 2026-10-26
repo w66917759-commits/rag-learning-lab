@@ -2,6 +2,8 @@
 
 Built by **[SaveMyToken](https://savemytoken.com)**.
 
+Related project: **[SI-API](https://siapi.ai)**.
+
 Six small, runnable exercises for understanding retrieval-augmented generation and vector search. Each lab includes complete JavaScript, expected output, an explanation, and a change to try. Everything runs locally without dependencies, API keys, or a model service.
 
 ## Start here
